@@ -15,6 +15,8 @@
 
 > **Enterprise-Grade AWS Cloud Security & Misconfiguration Auditing Tool**
 
+[![Python Tests](https://github.com/DivyanshiKishore/CloudProwler/actions/workflows/python-tests.yml/badge.svg)](https://github.com/DivyanshiKishore/CloudProwler/actions/workflows/python-tests.yml)
+
 CloudProwler is a Python-based cloud security auditing tool designed to identify security misconfigurations, public exposures, and privilege escalation risks across AWS environments. It performs automated security assessments for core AWS services and generates both machine-readable JSON reports and an executive-friendly HTML security dashboard.
 
 Designed with modular architecture and a professional command-line interface, CloudProwler helps security engineers, cloud administrators, and DevSecOps teams quickly identify and prioritize cloud security risks.
