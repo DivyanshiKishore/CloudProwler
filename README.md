@@ -11,9 +11,9 @@
 
 </p>
 
-# ☁️ CloudProwler
+# CloudProwler
 
-> **Enterprise-Grade AWS Cloud Security & Misconfiguration Auditing Tool**
+Enterprise-Grade AWS Cloud Security & Misconfiguration Auditing Tool
 
 [![Python Tests](https://github.com/DivyanshiKishore/CloudProwler/actions/workflows/python-tests.yml/badge.svg)](https://github.com/DivyanshiKishore/CloudProwler/actions/workflows/python-tests.yml)
 
