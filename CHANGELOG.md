@@ -2,21 +2,33 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.0.0] - 2026-07-27
+## [v1.0.0] - 2026-07-27
 
 ### Added
-- AWS S3 public access auditing
-- IAM AdministratorAccess detection
-- IAM privilege escalation checks
-- EC2 IMDSv1 exposure detection
-- Security Group exposure detection
-- Dynamic environment risk scoring
-- HTML security dashboard
+
+- Initial stable release of CloudProwler
+- AWS cloud security misconfiguration auditing
+- IAM security checks
+- S3 exposure detection
 - JSON report generation
-- Rich CLI dashboard
-- Offline demo mode
-- Severity-based filtering
-- Multi-region support
+- HTML security dashboard generation
+- CLI-based scanning workflow
+- GitHub Actions CI pipeline
+- Automated pytest validation
+- GitHub issue templates and security reporting workflow
+
+### Documentation
+
+- Added project README
+- Added contribution guidelines
+- Added security policy
+- Added architecture and workflow diagrams
+
+### Project Structure
+
+- Modular scanner architecture
+- Reporting module
+- Asset documentation
 - Docker support
 
 ### Changed
