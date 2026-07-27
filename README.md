@@ -41,7 +41,7 @@ Designed with modular architecture and a professional command-line interface, Cl
 
 ---
 
-# 🚀 Installation
+## 🚀 Installation
 
 Clone the repository:
 
@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 ---
 
-# ⚡ Usage
+## ⚡ Usage
 
 ### Run using Offline Demo Mode
 
@@ -112,7 +112,7 @@ python main.py --demo --output reports/report.json --html reports/report.html
 ```
 ---
 
-# 🏗️ Software Architecture
+## 🏗️ Software Architecture
 
 <p align="center">
   <img src="assets/diagrams/architecture.png" alt="CloudProwler Architecture" width="900">
@@ -122,7 +122,7 @@ CloudProwler follows a modular architecture that separates command-line interact
 
 ---
 
-# 🔄 Workflow
+## 🔄 Workflow
 
 <p align="center">
   <img src="assets/diagrams/workflow.png" alt="CloudProwler Workflow" width="900">
@@ -132,7 +132,7 @@ The workflow illustrates how CloudProwler processes command-line arguments, exec
 
 ---
 
-# 📈 Risk Scoring
+## 📈 Risk Scoring
 
 <p align="center">
   <img src="assets/diagrams/risk-scoring.png" alt="Risk Scoring" width="900">
@@ -173,3 +173,59 @@ Each finding contributes to an overall environment security score. Higher severi
 <p align="center">
   <img src="assets/screenshots/project-structure.png" width="350">
 </p>
+
+CloudProwler follows a modular architecture designed for maintainability and extensibility.
+
+```text
+CloudProwler/
+├── assets/                 # Images, diagrams, screenshots
+├── scanner/                # AWS security checks and report generation
+├── tests/                  # Automated tests
+├── .github/                # GitHub workflows and issue templates
+├── main.py                 # CLI entry point
+├── requirements.txt        # Project dependencies
+├── Dockerfile              # Docker support
+└── README.md               # Project documentation
+```
+
+## 🛠️ Technology Stack
+
+- Python 3.10+
+- AWS SDK (Boto3)
+- Rich (CLI dashboard)
+- Jinja2 (HTML report generation)
+- GitHub Actions (CI/CD)
+- Pytest (Automated testing)
+
+## 🔒 Security Checks
+
+CloudProwler currently performs security assessments for:
+
+- IAM AdministratorAccess detection
+- IAM privilege escalation analysis
+- S3 Public Access Block validation
+- EC2 IMDSv1 exposure detection
+- Security Group exposure analysis
+- Environment risk scoring
+## 🗺️ Roadmap
+
+Planned improvements include:
+
+- Additional AWS service coverage
+- CIS AWS Benchmark checks
+- Multi-account scanning
+- CSV report generation
+- Parallel scanning
+- Unit test expansion
+- Additional compliance checks
+## 🤝 Contributing
+
+Contributions are welcome.
+
+Please read the CONTRIBUTING.md guide before submitting issues or pull requests.
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+See the LICENSE file for details.
