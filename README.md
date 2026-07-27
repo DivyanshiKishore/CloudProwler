@@ -22,6 +22,18 @@ CloudProwler is a Python-based cloud security auditing tool designed to identify
 Designed with modular architecture and a professional command-line interface, CloudProwler helps security engineers, cloud administrators, and DevSecOps teams quickly identify and prioritize cloud security risks.
 
 ---
+## 🎯 Project Highlights
+
+- Enterprise-style AWS cloud security auditing tool
+- Automated AWS misconfiguration detection
+- Dynamic environment risk scoring
+- JSON and HTML report generation
+- Rich CLI dashboard
+- GitHub Actions CI with automated testing
+- CodeQL and Dependabot integration
+- Comprehensive documentation and sample reports
+
+---
 
 ## ✨ Key Features
 
@@ -41,12 +53,28 @@ Designed with modular architecture and a professional command-line interface, Cl
 
 ---
 
+## 📚 Table of Contents
+
+- [✨ Key Features](#-key-features)
+- [🚀 Installation](#-installation)
+- [⚡ Usage](#-usage)
+- [🏗️ Software Architecture](#️-software-architecture)
+- [🔄 Workflow](#-workflow)
+- [📈 Risk Scoring](#-risk-scoring)
+- [📸 Screenshots](#-screenshots)
+- [📁 Project Structure](#-project-structure)
+- [🛠️ Technology Stack](#️-technology-stack)
+- [🔒 Security Checks](#-security-checks)
+- [🗺️ Roadmap](#️-roadmap)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+
 ## 🚀 Installation
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/CloudProwler.git
+git clone https://github.com/DivyanshiKishore/CloudProwler.git
 cd CloudProwler
 ```
 
@@ -57,6 +85,13 @@ pip install -r requirements.txt
 ```
 
 ---
+
+## 📋 Requirements
+
+- Python 3.10 or later
+- AWS credentials configured (for live scans)
+- Internet connection
+- Windows, Linux, or macOS
 
 ## ⚡ Usage
 
@@ -207,6 +242,7 @@ CloudProwler currently performs security assessments for:
 - EC2 IMDSv1 exposure detection
 - Security Group exposure analysis
 - Environment risk scoring
+
 ## 🗺️ Roadmap
 
 Planned improvements include:
@@ -218,6 +254,7 @@ Planned improvements include:
 - Parallel scanning
 - Unit test expansion
 - Additional compliance checks
+
 ## 🤝 Contributing
 
 Contributions are welcome.
@@ -229,3 +266,7 @@ Please read the CONTRIBUTING.md guide before submitting issues or pull requests.
 This project is licensed under the MIT License.
 
 See the LICENSE file for details.
+
+## ⚠️ Disclaimer
+
+CloudProwler is intended for authorized security assessments of AWS environments. Only scan cloud resources that you own or have explicit permission to assess.
